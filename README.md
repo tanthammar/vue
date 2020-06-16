@@ -27,3 +27,13 @@ import 'livewire-vue'
 // Or.
 require('livewire-vue')
 ```
+
+If you have the Laravel auto scaffolded app.js 
+you must change this:
+```
+window.Vue = require('vue')
+```
+to:
+```
+window.Vue = Vue
+```
